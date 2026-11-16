@@ -1,10 +1,10 @@
-# Token Radar — radar-2
+# token-radar-01
 
-A token launch radar for make.fun's `token-radar-01` bounty. The program (`main.ts`,
-Node 22, standard library only) reads the sealed snapshot at `/input/snapshot.json` and
-writes the ranked board to `/output/board.json`, the dashboard data to `/output/data.js`,
-and copies `dashboard/` and `screenshots/` to `/output`, plus `/output/dossier.json`
-via `vendor/makefun-board.ts`.
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/l3975711-del/token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/l3975711-del/token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
+A token launch radar that ranks pre-token protocols by implied value — TVL, seven-day growth, age with no token and chain breadth, with the value multiple measured from the snapshot itself — and gives every protocol a concrete farm plan with cost and time.
 
 ## Run it
 
@@ -53,3 +53,7 @@ a filtered view. They are re-rendered from the current dashboard, not the starte
 Implied value is this entry's model, not a price and not a prediction that a token will
 be issued. "No token" means the snapshot records none; a protocol may have a token its
 DefiLlama record does not carry.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=6djwyq1c&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
