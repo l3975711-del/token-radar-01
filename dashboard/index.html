@@ -1,15 +1,20 @@
 <!doctype html>
+<!-- Token Radar's page, round 2. A single shell the script fills: the board,
+     its filters, the model panel and the detail drawer. The data arrives in
+     data.js beside this page, so the page needs no network to render. -->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Token Radar: pre-token protocols ranked by implied value</title>
-<link rel="stylesheet" href="app.css">
-</head>
-<body>
-<a class="skip" href="#board">Skip to the board</a>
-<main id="board" tabindex="-1" aria-busy="true"></main>
-<script src="../data.js"></script>
-<script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Token Radar: pre-token protocols ranked by implied value, with a farm plan for each.">
+    <title>Token Radar: pre-token protocols ranked by implied value</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <a class="skip" href="#board">Skip to the board</a>
+    <main id="board" tabindex="-1" aria-busy="true"></main>
+    <!-- data.js first: it defines window.RADAR, which app.js renders. -->
+    <script src="../data.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
